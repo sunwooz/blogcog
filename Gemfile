@@ -50,31 +50,7 @@ group :development, :test do
   gem 'byebug'
   #gem 'annotate'
   gem 'better_errors'
-  #gem 'binding_of_caller'
-  #gem 'brakeman', :require => false
-  #gem 'bullet'
-  #gem 'debugger'
-  #gem 'factory_girl_rails' # https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md
-  #gem 'faker' # http://rubydoc.info/github/stympy/faker/master/frames
-  #gem 'flay'
-  #gem 'hirb'
-  #gem 'localtunnel'
-  #gem 'lol_dba'
-  #gem 'mailcatcher'
-  #gem 'meta_request','0.2.1'
-  #gem 'pry'
-  #gem 'pry-doc'
-  #gem 'rack-mini-profiler'
-  #gem 'rack-webconsole'
-  #gem 'railroady'
-  #gem 'rails-footnotes', '>= 3.7.5.rc4'
-  #gem 'rails_best_practices'
-  #gem 'reek'
-  #gem 'request-log-analyzer'
-  #gem 'rspec-rails' # https://github.com/rspec/rspec-rails
-  #gem 'selenium-webdriver'
-  #gem 'traceroute'
-  #gem 'xray-rails'
+  gem 'binding_of_caller'
   gem 'quiet_assets'
 
   #gem 'timecop'
@@ -100,15 +76,3 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
