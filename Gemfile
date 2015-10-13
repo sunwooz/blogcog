@@ -27,27 +27,18 @@ gem 'activeadmin', github: 'gregbell/active_admin'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
-
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder' # , '~> 1.2'
 
 gem 'devise'
 gem 'bootstrap-sass-rails'
 gem 'carrierwave'
-gem 'twitter'
 gem 'json'
 gem 'airbrake'
 gem 'koala'
-gem 'linkedin'
 gem 'omniauth'
 gem 'omniauth-oauth2'
-gem 'omniauth-facebook'
-gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
-gem 'omniauth-linkedin-oauth2'
-gem 'omniauth-twitter'
 gem 'rmagick'
 gem 'simple_form'
 gem 'pg'
