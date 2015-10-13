@@ -43,6 +43,7 @@ gem 'rmagick'
 gem 'simple_form'
 gem 'pg'
 gem 'thin'
+gem 'google-api-client'
 
 gem 'eventmachine' # , '>=1.07'
 
